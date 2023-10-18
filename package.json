@@ -1,0 +1,22 @@
+{
+  "name": "blog-oxy",
+  "version": "0.14.61",
+  "private": true,
+  "scripts": {
+    "build": "npm run fuse && npm run build:ssg && npm run rss",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "fuse": "valaxy fuse",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "valaxy": "0.14.61",
+    "valaxy-theme-yun": "0.14.61",
+    "vue-gtag-next": "^1.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite-plugin-inspect": "^0.7.38"
+  }
+}
