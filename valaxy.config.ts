@@ -24,20 +24,20 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     },
 
-    pages: [
-      {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },
-    ],
+    // pages: [
+    //   {
+    //     name: '我的小伙伴们',
+    //     url: '/links/',
+    //     icon: 'i-ri-genderless-line',
+    //     color: 'dodgerblue',
+    //   },
+    //   {
+    //     name: '喜欢的女孩子',
+    //     url: '/girls/',
+    //     icon: 'i-ri-women-line',
+    //     color: 'hotpink',
+    //   },
+    // ],
 
     footer: {
       since: 2023,
@@ -55,7 +55,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       url: "https://z1.ax1x.com/2023/10/08/pPvtQXV.md.png",
       dark: "https://z1.ax1x.com/2023/10/08/pPvtQXV.md.png",
-    }
+    },
   },
 
   unocss: { safelist },
