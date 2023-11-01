@@ -64,8 +64,8 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: '微信公众号',
-      link: 'https://z1.ax1x.com/2023/10/31/pin6Uc6.jpg',
+      name: '微信',
+      link: 'https://postimg.cc/hX3MWzn2',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
