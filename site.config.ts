@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://localhost/',
+  url: 'https://akko.netlify.app/',
   lang: 'zh-CN',
   title: 'w的小站',
   subtitle: 'a front developer and fucking ragon slayer',
