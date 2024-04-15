@@ -10,8 +10,9 @@ top: 1
 aplayer: true
 ---
 
-在前端有个这样的login组件，后续解释代码，用cocos打开之后也简单
-但是输入密码发送请求的时候发现是明文发送 这个其实不太好，下一篇文章解决
+## 登录
+
+在前端有个这样的login组件，后续解释代码
 
 ```ts
 import { _decorator, Component, EditBox, Node } from 'cc';
@@ -99,3 +100,6 @@ app.listen(port, () => console.log(`Example app listening on port https://localh
 
 console.log("auth 服务");
 ```
+## 问题
+用cocos打开之后也简单
+但是输入密码发送请求的时候发现是明文发送 这个其实不太好，下一篇文章解决

@@ -11,7 +11,9 @@ top: 1
 aplayer: true
 ---
 
-1. 在docker仓库中搜索mysql的镜像：
+mysql呢，安装起来麻烦，所以就需要docker，我推荐docker desktop，安装省略
+
+### 1. 在docker仓库中搜索mysql的镜像：
 ```bash
  docker search mysql
 ```
@@ -20,7 +22,7 @@ aplayer: true
 docker pull mysql
 ```
 
-2. 查看本地镜像：
+### 2. 查看本地镜像：
 ```bash
  docker images -a
 ```
@@ -34,7 +36,7 @@ docker pull mysql
 
  （ mysql --help 查看帮助信息，并在结果集中 查找 Distrib ， “|”单竖线表示命令的连续执行，同时以前一个命令值域作为后一个命令的定义域 ）
 
-3. 退出 当前交互窗口：exit 。此操作会关闭 mysql 服务 。
+### 3. 退出 当前交互窗口：exit 。此操作会关闭 mysql 服务 。
 
 （对于创建的bush 容器，exit 退出后，容器也会退出。
 
@@ -47,7 +49,7 @@ docker pull mysql
 ```
 （参数 -p 设置端口，--name 取名 ，-e MYSQL_ROOT_PASSWORD=123456 设置 账号为 root ，密码为 123456 ，-d 表示作为一个守护进程在后台运行 ）
 
-4. 查看运行中的容器：
+### 4. 查看运行中的容器：
 ```bash
 docker ps
 ```
@@ -60,7 +62,7 @@ docker ps
 
 可以通过 docker port 容器name 查看对应端口：
 
-5. 至于相关文件地址配置 ，可以在运行容器时设置 ：
+### 5. 至于相关文件地址配置 ，可以在运行容器时设置 ：
 
 ```bash
 docker run -p 3306:3306 --name mysql -v $PWD/conf/my.cnf:/etc/mysql/my.cnf -v $PWD/logs:/logs -v $PWD/data:/mysql_data -e MYSQL_ROOT_PASSWORD=123456 -d mysql
