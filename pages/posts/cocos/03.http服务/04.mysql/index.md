@@ -1,8 +1,8 @@
 ---
-title: Docker启动mysql
+title: 04.Docker启动mysql
 subtitle: mysql
-date: 2024-4-15
-# updated: 2022-04-01
+date: 2024-04-15
+updated: 2024-4-15
 categories: mysql
 tags:
   - mysql
