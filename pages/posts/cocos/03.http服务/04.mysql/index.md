@@ -75,3 +75,71 @@ docker run -p 3306:3306 --name mysql -v $PWD/conf/my.cnf:/etc/mysql/my.cnf -v $P
  -v $PWD/logs:/logs：将主机当前目录下的logs目录挂载到容器的/logs
  -v $PWD/data:/mysql_data：将主机当前目录下的data目录挂载到容器的/mysql_data
  -e MYSQL_ROOT_PASSWORD=123456：初始化root用户的密码
+
+docker启动好这样就是启动了
+![alt text](./image-1.png)
+
+## 连接
+![alt text](./image.png)
+安装这个插件
+
+然后点左侧的倒数第二个图标，创建一个链接
+![alt text](./image-2.png)
+
+3306新建一个数据库
+![alt text](./image-3.png)
+
+### 表
+存储密码和账号，需要一个user表
+![alt text](./image-4.png)
+
+### accout和password字段
+新建2个字段 varchar就行 然后20个字符长度
+![alt text](./image-5.png)
+
+### 连接数据库
+
+```bash
+pnpm install mysql
+```
+安装之后它的npm主页也有使用方法
+![alt text](./image-7.png)
+直接复制这里面的代码，把表名字和密码账号改一下就行
+
+### 执行sql语句
+直接写sql语句会有sql注入风险，通常都是通过？？？占位符处理
+
+![alt text](./image-6.png)
+
+## mysql2
+之前那个包会报错一个
+Client does not support authentication protocol requested by server; consider upgrading MySQL client
+所以使用新包试试
+https://sidorares.github.io/node-mysql2/docs#first-query
+
+```ts
+import mysql from 'mysql2';
+
+  const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '123456',
+    database: 'mmoactdb',
+  });
+
+  // 注册中
+  connection.execute(
+    'INSERT INTO user (account, password, create_time) VALUES (?, ?, ?)',
+    [account, password, dayjs().format('YYYY-MM-DD HH:mm:ss')],
+    function (err, results, fields) {
+      if (err) {
+        console.log('err :>> ', err)
+        return
+      }
+      console.log(results)
+      console.log(fields)
+    }
+  );
+```
+
+ts-node不知道为什么在esm下面会报错 所以不得不使用cjs的格式
