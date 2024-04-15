@@ -3,7 +3,7 @@ title: Docker启动mysql
 subtitle: mysql
 date: 2024-4-15
 # updated: 2022-04-01
-categories: game
+categories: mysql
 tags:
   - mysql
   - game
