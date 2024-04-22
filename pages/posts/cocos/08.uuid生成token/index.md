@@ -1,8 +1,8 @@
 ---
 title: 06.uuid生成token
 subtitle: uuid
-date: 2024-04-22
-updated: 2024-4-22
+date: 2024-04-18
+updated: 2024-4-18
 categories: uuid
 tags:
   - game
@@ -63,3 +63,28 @@ app.post('/login', (req, res) => {
   );
 })
 ```
+
+### client
+
+client里面也需要改造一下
+```ts
+async login() {
+        const account = crypt.encrypt(this.account.string);
+        const password = crypt.encrypt(this.password.string);
+
+        console.log('account :>> ', account);
+        console.log('password :>> ', password);
+
+        const res = await fetch("http://localhost:3000/login", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ account, password }),
+        })
+            .then((response) => response.json())
+        console.log('res :>> ', res);
+    }
+```
+
+login方法和注册是一样的，fetch不同的路由即可
