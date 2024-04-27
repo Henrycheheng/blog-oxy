@@ -2,6 +2,7 @@
 title: 02.cors解决跨域请求
 subtitle: cocos3d项目结构
 date: 2024-04-15
+updated: 2024-04-15
 categories: cocos
 tags:
   - game
