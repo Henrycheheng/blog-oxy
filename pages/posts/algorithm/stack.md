@@ -2,7 +2,7 @@
 title: stack
 subtitle: 数据结构与算法
 date: 2023-10-31
-# updated: 2022-04-01
+updated: 2023-10-31
 categories: algorithm
 tags:
   - algorithm
