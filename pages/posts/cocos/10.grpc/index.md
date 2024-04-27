@@ -3,7 +3,7 @@ title: 08.grpc
 subtitle: uuid
 date: 2024-4-24
 updated: 2024-4-25
-categories: gateway
+categories: grpc
 tags:
   - game
   - 游戏登录
