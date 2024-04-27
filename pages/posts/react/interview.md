@@ -2,7 +2,7 @@
 title: 记录一次react面试
 subtitle: react小记
 date: 2023-10-17
-# updated: 2022-04-01
+updated: 2023-10-17
 categories: react
 tags:
   - react面试

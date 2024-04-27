@@ -2,7 +2,7 @@
 title: Reack Hooks小记
 subtitle: react小记
 date: 2023-10-31
-# updated: 更新的时间
+updated: 2023-10-31
 categories: react
 tags:
   - Reack Hooks

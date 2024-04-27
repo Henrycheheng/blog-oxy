@@ -1,8 +1,8 @@
 ---
 title: loadEnv
 subtitle: loadEnv 源码分析
-date: 2023-09-30
-# updated: 2022-04-01
+date: 2022-04-01
+updated: 2022-04-02
 categories:  Vite
 tags:
   - Vite源码分析
