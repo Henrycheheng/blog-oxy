@@ -8,6 +8,9 @@ dependencies:
   valaxy:
     specifier: 0.18.6
     version: 0.18.6(@types/markdown-it@14.0.1)(@unhead/shared@1.9.7)(postcss@8.4.38)(typescript@5.4.5)(unhead@1.9.7)
+  valaxy-addon-meting:
+    specifier: ^0.1.1
+    version: 0.1.1
   valaxy-theme-yun:
     specifier: 0.18.6
     version: 0.18.6
@@ -4734,6 +4737,10 @@ packages:
       diff: 5.2.0
       kleur: 4.1.5
       sade: 1.8.1
+    dev: false
+
+  /valaxy-addon-meting@0.1.1:
+    resolution: {integrity: sha512-cG5MOXF96A14ZK6O/IhUcj4QhtRedpW5jL9YQaA7fUJ2Iba41f4vF7v0qvBWdwrtkskaFXfGQ0tUIvc2PpI3Aw==}
     dev: false
 
   /valaxy-theme-yun@0.18.6:

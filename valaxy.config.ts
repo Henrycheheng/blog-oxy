@@ -1,6 +1,9 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import Inspect from 'vite-plugin-inspect'
+// @ts-ignore
+import { addonMeting } from 'valaxy-addon-meting'
+
 
 // add icons what you will need
 const safelist = [
@@ -14,6 +17,22 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
+
+  addons: [
+    addonMeting({
+      global: true,
+      /** @see https://github.com/metowolf/MetingJS */
+      props: {
+        id: '2049540645',
+        server: 'netease',
+        type: 'song',
+        autoplay: true,
+      },
+      options: {
+        animationIn: true,
+      }
+    })
+  ],
 
   themeConfig: {
     banner: {
