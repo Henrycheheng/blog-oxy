@@ -27,12 +27,12 @@ export default defineSiteConfig({
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
-    {
-      name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/24963106',
-      icon: 'i-ri-bilibili-line',
-      color: '#FF8EB3',
-    },
+    // {
+    //   name: '哔哩哔哩',
+    //   link: 'https://space.bilibili.com/24963106',
+    //   icon: 'i-ri-bilibili-line',
+    //   color: '#FF8EB3',
+    // },
     {
       name: '微信',
       link: 'https://postimg.cc/hX3MWzn2',
