@@ -39,6 +39,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/cocos/09.gateway/': RouteRecordInfo<'/posts/cocos/09.gateway/', '/posts/cocos/09/gateway', Record<never, never>, Record<never, never>>,
     '/posts/cocos/10.grpc/': RouteRecordInfo<'/posts/cocos/10.grpc/', '/posts/cocos/10/grpc', Record<never, never>, Record<never, never>>,
     '/posts/cocos/11.protobuf/': RouteRecordInfo<'/posts/cocos/11.protobuf/', '/posts/cocos/11/protobuf', Record<never, never>, Record<never, never>>,
+    '/posts/cocos/12.柏林噪声生成地图/': RouteRecordInfo<'/posts/cocos/12.柏林噪声生成地图/', '/posts/cocos/12/柏林噪声生成地图', Record<never, never>, Record<never, never>>,
     '/posts/css/回流和重绘': RouteRecordInfo<'/posts/css/回流和重绘', '/posts/css/回流和重绘', Record<never, never>, Record<never, never>>,
     '/posts/game/cocos开发mmoact游戏技术预研': RouteRecordInfo<'/posts/game/cocos开发mmoact游戏技术预研', '/posts/game/cocos开发mmoact游戏技术预研', Record<never, never>, Record<never, never>>,
     '/posts/react/interview': RouteRecordInfo<'/posts/react/interview', '/posts/react/interview', Record<never, never>, Record<never, never>>,
