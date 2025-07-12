@@ -26,6 +26,8 @@ declare module 'vue-router/auto-routes' {
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
+    // Base /posts/ route; declared before specific subroutes for clarity
+    '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/algorithm/array': RouteRecordInfo<'/posts/algorithm/array', '/posts/algorithm/array', Record<never, never>, Record<never, never>>,
     '/posts/algorithm/stack': RouteRecordInfo<'/posts/algorithm/stack', '/posts/algorithm/stack', Record<never, never>, Record<never, never>>,
     '/posts/cocos/01.入门/1.入门': RouteRecordInfo<'/posts/cocos/01.入门/1.入门', '/posts/cocos/01/入门/1/入门', Record<never, never>, Record<never, never>>,
