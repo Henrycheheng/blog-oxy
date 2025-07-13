@@ -1,0 +1,302 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "akko",
+    "home_page_url": "https://akko.netlify.app/",
+    "feed_url": "https://akko.netlify.app/feed.json",
+    "description": "把酒祝东风，且供从容",
+    "icon": "https://avatars.githubusercontent.com/u/48849602?v=4",
+    "author": {
+        "name": "akko",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://akko.netlify.app/posts/music/01初识sonicpi",
+            "content_html": "<h3>演奏一段旋律</h3>\n<p>输入以下内容并点击运行</p>\n<pre><code>play 60\nplay 67\nplay 69\n</code></pre>\n<h3>休止符</h3>\n<p>听起来不成调，是吧？输入进Sonic Pi的所有音符都是即刻运</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/music/01初识sonicpi\" target=\"_blank\">https://akko.netlify.app/posts/music/01初识sonicpi</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/music/01初识sonicpi",
+            "title": "初识sonicpi",
+            "date_modified": "2024-09-22T19:46:49.000Z",
+            "date_published": "2025-07-13T16:42:39.529Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/music/02乐理",
+            "content_html": "<h3>不错，你已经写出一段优美的旋律了。</h3>\n<p>我们接下来试试反复或反复部分旋律若干次。尽管你可以用复制粘贴的方式，但是反复次数太多还是很麻烦的。好在我们还能用 repetition指令。这个神奇的</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/music/02乐理\" target=\"_blank\">https://akko.netlify.app/posts/music/02乐理</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/music/02乐理",
+            "title": "02.乐理",
+            "date_modified": "2024-09-22T19:48:31.000Z",
+            "date_published": "2025-07-13T16:42:39.529Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/music/03hithat",
+            "content_html": "<h3>鼓点</h3>\n<p>我们来看一下如何编写一段包含大鼓，小鼓和踩镲的鼓点。你能学会两点：live_loop指令和采样。</p>\n<p>在空白的编程面板创建一个名为:drums的live_loop指令。你可以随意命名，</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/music/03hithat\" target=\"_blank\">https://akko.netlify.app/posts/music/03hithat</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/music/03hithat",
+            "title": "03.hithat",
+            "date_modified": "2024-09-22T20:16:07.000Z",
+            "date_published": "2025-07-13T16:42:39.529Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/12.柏林噪声生成地图/index",
+            "content_html": "<blockquote>\n<p>摘要： 目前游戏的背景图和登录的背景图比较小，本身只是一个图片组成的图层，mmoact游戏需要多个玩家可以不断的探索游戏的边界进行冒险，所以有限的地图基本无法在开放世界中留住玩家，手动不断生成地</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/12.柏林噪声生成地图/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/12.柏林噪声生成地图/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/12.柏林噪声生成地图/index",
+            "title": "10.柏林噪声生成地图",
+            "date_modified": "2024-05-28T10:56:09.000Z",
+            "date_published": "2025-07-13T16:42:39.529Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/11.protobuf/index",
+            "content_html": "<p>protobuf是谷歌开源的二进制字节传输，由于手游要适配用户的不同手机，减少网络请求包能减小用户的手机发热耗电等问题，所以webscoket中压缩用户传输的数据就显得很重要</p>\n<h3>protob</h3>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/11.protobuf/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/11.protobuf/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/11.protobuf/index",
+            "title": "09.protobuf",
+            "date_modified": "2024-04-27T17:10:09.000Z",
+            "date_published": "2024-05-09T23:53:01.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/10.grpc/index",
+            "content_html": "<h2>为什么需要rpc以及rpc是什么？</h2>\n<p>我就不班门弄斧了，直接看大佬的文章吧<br>\n[怎么理解rpc，既然有http请求了为啥还要用rpc？](<a href=\"https://www.zhihu.com/questi\">https://www.zhihu.com/questi</a></p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/10.grpc/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/10.grpc/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/10.grpc/index",
+            "title": "08.grpc",
+            "date_modified": "2024-04-24T00:00:00.000Z",
+            "date_published": "2024-04-25T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/09.gateway/index",
+            "content_html": "<h3>gateway</h3>\n<p>gateway 网关服务，为什么需要做呢？</p>\n<ul>\n<li>首先，游戏登录界面可能需要多个和游戏服务器通信，而这些服务肯呢个位于不同的地理位置，网关服务可以将所有游戏服务器通信路由到</li>\n</ul>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/09.gateway/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/09.gateway/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/09.gateway/index",
+            "title": "07.gateway",
+            "date_modified": "2024-04-21T00:00:00.000Z",
+            "date_published": "2024-04-22T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/08.uuid生成token/index",
+            "content_html": "<h3>uuid</h3>\n<pre><code class=\"language-bash\">pnpm install uuid\n</code></pre>\n<h3>token</h3>\n<p><img src=\"./image.png\" alt=\"alt text\"></p>\n<h3>login</h3>\n<p>登录和注册一样，从表里面</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/08.uuid生成token/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/08.uuid生成token/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/08.uuid生成token/index",
+            "title": "06.uuid生成token",
+            "date_modified": "2024-04-18T00:00:00.000Z",
+            "date_published": "2024-04-18T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/07.哈希散列混淆/index",
+            "content_html": "<h2>crypto</h2>\n<p><img src=\"./image.png\" alt=\"alt text\"></p>\n<h2>createHash</h2>\n<p><img src=\"./image-1.png\" alt=\"alt text\"><br>\ncreateHash方法调用的时候使用md5</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/07.哈希散列混淆/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/07.哈希散列混淆/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/07.哈希散列混淆/index",
+            "title": "05.crypto哈希散列MD5混淆",
+            "date_modified": "2024-04-17T00:00:00.000Z",
+            "date_published": "2024-04-17T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/06.mysql/index",
+            "content_html": "<p>mysql呢，安装起来麻烦，所以就需要docker，我推荐docker desktop，安装省略</p>\n<h3>1. 在docker仓库中搜索mysql的镜像：</h3>\n<pre><code class=\"language-bash\"> docker sear</code></pre>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/06.mysql/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/06.mysql/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/06.mysql/index",
+            "title": "04.Docker启动mysql",
+            "date_modified": "2024-04-16T00:00:00.000Z",
+            "date_published": "2024-04-16T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/game/cocos开发mmoact游戏技术预研",
+            "content_html": "<h2>游戏引擎</h2>\n<ul>\n<li>Cocos 引擎可以用于构建游戏的基础架构和实现游戏逻辑，但可能需要对引擎进行扩展以满足大规模 回合制即时策略 游戏的要求。</li>\n<li>了解引擎的内部机制、优化性能以及适当的使用方法</li>\n</ul>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/game/cocos开发mmoact游戏技术预研\" target=\"_blank\">https://akko.netlify.app/posts/game/cocos开发mmoact游戏技术预研</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/game/cocos开发mmoact游戏技术预研",
+            "title": "cocos开发mmoact游戏技术预研",
+            "date_modified": "2024-04-04T00:00:00.000Z",
+            "date_published": "2024-04-15T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/04.cors/index",
+            "content_html": "<h2>登录</h2>\n<p>在前端有个这样的login组件，后续解释代码</p>\n<pre><code class=\"language-ts\">import { _decorator, Component, EditBox, Node } from 'cc';\ncon</code></pre>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/04.cors/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/04.cors/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/04.cors/index",
+            "title": "02.cors解决跨域请求",
+            "date_modified": "2024-04-15T00:00:00.000Z",
+            "date_published": "2024-04-15T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/05.非对称加密/index",
+            "content_html": "<p><img src=\"./image.png\" alt=\"alt text\"></p>\n<p>关于加密的相关此处不展开，可以通过中间人，sql注入这些攻击，但是我们只需要发送到server是加密的就行 所以 需要用到2个npm库</p>\n<p>前端<br>\n``</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/05.非对称加密/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/05.非对称加密/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/05.非对称加密/index",
+            "title": "03.非对称加密",
+            "date_modified": "2024-04-15T00:00:00.000Z",
+            "date_published": "2024-04-15T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/03.http服务/index",
+            "content_html": "<p>express呢是一个npm包啦，要使用它也很简单只需要一行shell</p>\n<pre><code class=\"language-bash\">pnpm i express\n</code></pre>\n<p>然后打开浏览器 搜索 express npm<br>\n![alt text](</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/03.http服务/index\" target=\"_blank\">https://akko.netlify.app/posts/cocos/03.http服务/index</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/03.http服务/index",
+            "title": "01.express向前提供http服务",
+            "date_modified": "2024-04-14T00:00:00.000Z",
+            "date_published": "2024-04-14T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/01.入门/1.入门",
+            "content_html": "<h2>cocos3x入门教程</h2>\n<p><a href=\"https://forum.cocos.org/t/topic/122399\">https://forum.cocos.org/t/topic/122399</a></p>\n<h2>创建部分略过</h2>\n<h3>创建场景</h3>\n<p>![Alt text](./img/im</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/01.入门/1.入门\" target=\"_blank\">https://akko.netlify.app/posts/cocos/01.入门/1.入门</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/01.入门/1.入门",
+            "title": "cocos2/3d入门",
+            "date_modified": "2024-04-04T00:00:00.000Z",
+            "date_published": "2024-04-04T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/cocos/02.项目结构/项目结构",
+            "content_html": "<p><img src=\"./image-1.png\" alt=\"Alt text\"><br>\n在资源管理器中显示</p>\n<h2>目录结构</h2>\n<p><img src=\"./image.png\" alt=\"Alt text\"></p>\n<h3>.creator</h3>\n<p>是一些模板，后面再说</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/cocos/02.项目结构/项目结构\" target=\"_blank\">https://akko.netlify.app/posts/cocos/02.项目结构/项目结构</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/cocos/02.项目结构/项目结构",
+            "title": "cocos3d项目结构",
+            "date_modified": "2024-04-04T00:00:00.000Z",
+            "date_published": "2024-04-04T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/css/回流和重绘",
+            "content_html": "<h3>01.如果实现一个 css 平移的动画，使用 transform 和改变 left 值有什么区别？</h3>\n<p>[回流和重绘](&lt;<a href=\"https://juejin.cn/post/701318711284\">https://juejin.cn/post/701318711284</a></p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/css/回流和重绘\" target=\"_blank\">https://akko.netlify.app/posts/css/回流和重绘</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/css/回流和重绘",
+            "title": "css面试相关",
+            "date_modified": "2024-04-01T00:00:00.000Z",
+            "date_published": "2024-04-02T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/unity/1.入门",
+            "content_html": "<br/><p>访问 <a href=\"https://akko.netlify.app/posts/unity/1.入门\" target=\"_blank\">https://akko.netlify.app/posts/unity/1.入门</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/unity/1.入门",
+            "title": "unity",
+            "date_modified": "2023-11-29T00:00:00.000Z",
+            "date_published": "2023-11-29T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/algorithm/array",
+            "content_html": "<h2>数组</h2>\n<h3>创建</h3>\n<p>● new Array().fill()</p>\n<p>● Array.of()</p>\n<p>● const arr: any[] = []</p>\n<h3>增删改查</h3>\n<p>push pop unsh</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/algorithm/array\" target=\"_blank\">https://akko.netlify.app/posts/algorithm/array</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/algorithm/array",
+            "title": "数组",
+            "date_modified": "2023-10-31T00:00:00.000Z",
+            "date_published": "2023-10-31T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/algorithm/stack",
+            "content_html": "<h2>stack</h2>\n<p>● 结尾删除和添加</p>\n<p>● 后入先出</p>\n<h2>封装</h2>\n<ul>\n<li>#item表示是当前类的私有属性。</li>\n</ul>\n<pre><code class=\"language-ts\">// push 一个元素到栈顶\n// pop 出栈\n// peek 返回</code></pre>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/algorithm/stack\" target=\"_blank\">https://akko.netlify.app/posts/algorithm/stack</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/algorithm/stack",
+            "title": "stack",
+            "date_modified": "2023-10-31T00:00:00.000Z",
+            "date_published": "2023-10-31T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/react/react-hook",
+            "content_html": "<p>React Hooks 是 React 16.8 版本新增的特性,它允许在函数组件中使用 state 及其他 React 特性,不再必须转换成 class 组件。<br>\nReact Hooks 的主要功能</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/react/react-hook\" target=\"_blank\">https://akko.netlify.app/posts/react/react-hook</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/react/react-hook",
+            "title": "Reack Hooks小记",
+            "date_modified": "2023-10-31T00:00:00.000Z",
+            "date_published": "2023-10-31T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/stableDffision/01.install",
+            "content_html": "<ul>\n<li>stable diffision</li>\n<li>automatic 1111\n<ul>\n<li>python</li>\n<li>git</li>\n</ul>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/stableDffision/01.install\" target=\"_blank\">https://akko.netlify.app/posts/stableDffision/01.install</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/stableDffision/01.install",
+            "title": "stableDffision",
+            "date_modified": "2023-08-12T00:00:00.000Z",
+            "date_published": "2023-10-31T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/react/interview",
+            "content_html": "<h4>1.setState是同步还是异步的</h4>\n<p>在React中，setState通常是异步的。当你调用setState时，React会将状态更新放入队列，然后在稍后的某个时间点才会执行实际的状态更</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/react/interview\" target=\"_blank\">https://akko.netlify.app/posts/react/interview</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/react/interview",
+            "title": "记录一次react面试",
+            "date_modified": "2023-10-17T00:00:00.000Z",
+            "date_published": "2023-10-17T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://akko.netlify.app/posts/vite/loadEnv",
+            "content_html": "<!-- add some music -->\n<!-- playlist 歌单 -->\n<p>&lt;meting-js<br>\nid=&quot;1357705810&quot;<br>\nserver=&quot;netease&quot;<br>\ntype=&quot;s</p>\n<br/><p>访问 <a href=\"https://akko.netlify.app/posts/vite/loadEnv\" target=\"_blank\">https://akko.netlify.app/posts/vite/loadEnv</a> 阅读全文。</p>",
+            "url": "https://akko.netlify.app/posts/vite/loadEnv",
+            "title": "loadEnv",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-02T00:00:00.000Z",
+            "author": {
+                "name": "akko",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
