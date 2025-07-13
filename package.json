@@ -12,13 +12,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.18.6",
-    "valaxy-addon-meting": "^0.1.1",
+    "valaxy": "latest",
+    "valaxy-addon-meting": "^0.1.4",
     "valaxy-theme-yun": "0.18.6",
     "vue-gtag-next": "^1.14.0"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
+    "typescript": "^5.8.3",
     "vite-plugin-inspect": "^0.7.42"
   },
   "packageManager": "pnpm@7.1.0"
