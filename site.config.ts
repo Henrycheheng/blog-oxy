@@ -3,10 +3,10 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://akko.netlify.app/',
   lang: 'zh-CN',
-  title: 'w的小站',
-  subtitle: 'a front developer and fucking ragon slayer',
+  title: 'akko',
+  subtitle: 'a front developer',
   author: {
-    name: 'w',
+    name: 'akko',
     status: {
       emoji: '😁',
       message: 'I may be slow to respond.'
