@@ -2,8 +2,8 @@
   NODE_VERSION = "20"
 
 [build]
-  command = "pnpm build"
   publish = "dist"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
