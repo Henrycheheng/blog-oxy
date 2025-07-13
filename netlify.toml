@@ -3,7 +3,6 @@
 
 [build]
   command = "pnpm build"
-  environment = { NODE_VERSION = "20" }
   publish = "dist"
 
 [[redirects]]
