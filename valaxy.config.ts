@@ -3,6 +3,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 import Inspect from 'vite-plugin-inspect'
 // @ts-ignore
 import { addonMeting } from 'valaxy-addon-meting'
+import type { PluginOption } from 'vite'
 
 
 // add icons what you will need
@@ -83,6 +84,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   vite: {
     // https://github.com/antfu/vite-plugin-inspect
     // Visit http://localhost:3333/__inspect/ to see the inspector
-    plugins: [Inspect()],
+    plugins: [Inspect() as PluginOption],
+    build: {
+      outDir: 'dist'
+    }
   },
 })
