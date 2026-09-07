@@ -2,7 +2,7 @@
 layout: post
 title: 初识sonicpi
 date: 2024-09-22 19:46:49
-update: 2024-09-22
+updated: 2024-09-22 19:46:49
 categories: music
 tags:
   - music

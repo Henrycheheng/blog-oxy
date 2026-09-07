@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 03.hithat
+title: hithat
 date: 2024-09-22 20:16:07
-update: 2024-09-22
+updated: 2024-09-22 20:16:07
 categories: music
 tags:
   - music
   - game
-top: 3
+top: 1
 aplayer: true
 ---
 
